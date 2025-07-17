@@ -1,0 +1,10 @@
+[project]
+name = "swen-hs25"
+version = "0.1.0"
+description = "Jupyter Notebooks for lecture SWEN in HS25"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "iplantuml>=0.1.1",
+    "ipykernel>=6.29.5",
+]
