@@ -1,7 +1,24 @@
 {
+    // Test-Einstellungen
     "python.testing.pytestArgs": [
         "."
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+
+    // Linter (Flake8)
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+
+    // Automatische Formatierung (Black)
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+
+    // Optionale Zusatzinfos (empfohlen)
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
 }
