@@ -1,3 +1,5 @@
+# Beispiellösung Dozent "Begrüssungsfunktion" (Wegmann, 2025)
+
 from greeter_Wegmann_2025 import *
 
 

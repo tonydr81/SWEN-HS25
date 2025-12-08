@@ -1,3 +1,6 @@
+# Beispiellösung Dozent "Begrüssungsfunktion" (Wegmann, 2025)
+
+
 def separate_names(names):
     normal_names = []
     upper_names = []

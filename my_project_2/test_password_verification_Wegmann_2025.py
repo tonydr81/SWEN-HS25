@@ -1,3 +1,5 @@
+# Beispiellösung Dozent "Passwortverifikation" (Wegmann, 2025)
+
 from password_verification_Wegmann_2025 import *
 
 

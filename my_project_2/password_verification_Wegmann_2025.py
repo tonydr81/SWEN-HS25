@@ -1,3 +1,5 @@
+# Beispiellösung Dozent "Passwortverifikation" (Wegmann, 2025)
+
 # Aus https://tddmanifesto.com/exercises/
 # Create a function that can be used as a validator for the password field of
 # a user registration form. The validation function takes a string as an input
@@ -22,6 +24,7 @@
 #    met, then the following error message should be returned: "password must
 #    contain at least one special character"
 
+
 def count_digits(string):
     count = 0
     for character in string:
@@ -41,7 +44,7 @@ def count_capital_letters(string):
 def count_special_characters(string):
     count = 0
     for character in string:
-        if character in "+\"*%&/()?@#!${}-;:_,.-":
+        if character in '+"*%&/()?@#!${}-;:_,.-':
             count += 1
     return count
 
